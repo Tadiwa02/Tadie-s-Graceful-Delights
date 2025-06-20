@@ -1,0 +1,45 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+header {
+  background-color: rgb(217, 118, 234);
+  color: rgb(58, 1, 58);
+  padding: 1em;
+  text-align: center;
+}
+
+nav a {
+  color: rgb(250, 234, 252);
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.hero {
+  padding: 2em;
+  text-align: center;
+}
+
+footer {
+  background-color: #f8dbef;
+  text-align: center;
+  padding: 1em;
+  margin-top: 2em;
+  font-size: 0.9em;
+  color: #555555;
+}
+
+@media (max-width: 600px) {
+  nav a {
+    display: block;
+    margin: 10px 0;
+  }
+}
